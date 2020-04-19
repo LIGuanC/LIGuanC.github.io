@@ -458,12 +458,36 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <hr>
-<p>title: “javaScript中的逻辑运算符<br>date: 2020-04-19 09:33:13<br>tags:</p>
-<hr>
-<p>#短路运算（逻辑中断)<br>##短路运算的原理:  </p>
-<hr>
-<p>  当有多个表达式（值）时，左边的表达式值可以确定结果时，<br>  就不用继续运算右边的表达式的值。</p>
+                <h2 id="title-javaScript中的逻辑运算符"><a href="#title-javaScript中的逻辑运算符" class="headerlink" title="title: javaScript中的逻辑运算符  "></a>title: javaScript中的逻辑运算符  </h2><h1 id="短路运算（逻辑中断"><a href="#短路运算（逻辑中断" class="headerlink" title="短路运算（逻辑中断)"></a>短路运算（逻辑中断)</h1><p>短路运算的原理:   </p>
+<blockquote>
+<p>当有多个表达式（值）时，左边的表达式值可以确定结果时，<br>就不用继续运算右边的表达式的值。</p>
+</blockquote>
+<ol>
+<li><p>逻辑与 ‘&amp;&amp;’  </p>
+<blockquote>
+<p>语法： 表达式1 &amp;&amp; 表达式2  </p>
+</blockquote>
+<pre><code>var num = 0;
+console.log(123 &amp;&amp; num++);  //返回123  
+console.log(num);  //返回0  </code></pre></li>
+</ol>
+<ul>
+<li>如果表达式1的值为真，则返回表达式2的值.    </li>
+<li>如果表达式1的值为假，则返回表达式1的值.  </li>
+</ul>
+<ol start="2">
+<li><p>逻辑或 ‘||’</p>
+<blockquote>
+<p>语法：表达式1 || 表达式2  </p>
+</blockquote>
+<pre><code>var num = 0;
+console.log(123 || num++);  //返回1  
+console.log(num);  //返回1  </code></pre></li>
+</ol>
+<ul>
+<li>如果表达式1的值为真，则返回表达式1.  </li>
+<li>如果表达式1的值为假，则返回表达式2.  </li>
+</ul>
 
             </div>
             <hr/>
@@ -709,12 +733,14 @@
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
-title: “javaScript中的逻辑运算符date: 2020-04-19 09:33:13tags:
+                            title: javaScript中的逻辑运算符  短路运算（逻辑中断)短路运算的原理:   
 
-#短路运算（逻辑中断)##短路运算的原理:  
+当有多个表达式（值）时，左边的表达式值可以确定结果时，就不用继续运算右边的表达式的值。
 
-  当有多个表达式（值）时，左边的表达式值可以确定结果时，  就不用继续运
+
+逻辑与 ‘&amp;&amp;’  
+
+语法： 表
                         
                     </div>
                     <div class="publish-info">
